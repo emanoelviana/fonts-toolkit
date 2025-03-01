@@ -1,0 +1,81 @@
+h1 {
+    font-family: 'Hatton';
+    font-size: 96px;
+    line-height: calc(96 * 1.25px);
+    font-weight: 500;
+    letter-spacing: .24px;
+    color: $headline-color;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Hatton';
+    font-size: 72px;
+    line-height: calc(72 * 1.25px);
+    font-weight: 500;
+    letter-spacing: .18px;
+    color: $headline-color;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Hatton';
+    font-size: 48px;
+    line-height: calc(48 * 1.25px);
+    font-weight: 500;
+    letter-spacing: .12px;
+    color: $headline-color;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Hatton';
+    font-size: 32px;
+    line-height: calc(32 * 1.25px);
+    font-weight: 500;
+    letter-spacing: .08px;
+    color: $headline-color;
+    margin: 0;
+}
+
+h5 {
+    font-family: 'Hatton';
+    font-size: 24px;
+    line-height: calc(24 * 1.25px);
+    font-weight: 300;
+    letter-spacing: .06px;
+    color: $headline-color;
+    margin: 0;
+}
+
+h6 {
+    font-family: 'Hatton';
+    font-size: 16px;
+    line-height: calc(16 * 1.25px);
+    font-weight: 300;
+    letter-spacing: .04px;
+    color: $headline-color;
+    margin: 0;
+}
+
+p {
+    font-family: 'Neue Montreal';
+    font-size: 32px;
+    line-height: calc(32 * 1.5px);
+    font-weight: 200;
+    letter-spacing: .4px;
+    color: $paragraph-color;
+    margin: 0;
+}
+
+a {
+    font-family: 'Neue Montreal';
+    font-size: 24px;
+    line-height: calc(24 * 1.5px);
+    font-weight: 200;
+    letter-spacing: .4px;
+    color: $headline-color;
+    text-decoration: none;
+    margin: 0;
+}
+
