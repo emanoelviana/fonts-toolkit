@@ -1,81 +1,217 @@
+// Color tokens
+$headline-color: #F4F5F6;
+$paragraph-color: #9B9EA3;
+
+// Mobile
 h1 {
-    font-family: 'Hatton';
-    font-size: 96px;
-    line-height: calc(96 * 1.25px);
+    font-family: "PP Hatton";
+    font-size: 40px;
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: .24px;
-    color: $headline-color;
+    line-height: 56px;
+    letter-spacing: 0px;
     margin: 0;
+    color: $headline-color;
 }
 
 h2 {
-    font-family: 'Hatton';
-    font-size: 72px;
-    line-height: calc(72 * 1.25px);
+    font-family: "PP Hatton";
+    font-size: 32px;
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: .18px;
-    color: $headline-color;
+    line-height: 48px;
+    letter-spacing: 0px;
     margin: 0;
+    color: $headline-color;
 }
 
 h3 {
-    font-family: 'Hatton';
-    font-size: 48px;
-    line-height: calc(48 * 1.25px);
+    font-family: "PP Hatton";
+    font-size: 24px;
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: .12px;
-    color: $headline-color;
+    line-height: 40px;
+    letter-spacing: 0px;
     margin: 0;
+    color: $headline-color;
 }
 
 h4 {
-    font-family: 'Hatton';
-    font-size: 32px;
-    line-height: calc(32 * 1.25px);
+    font-family: "PP Hatton";
+    font-size: 20px;
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: .08px;
-    color: $headline-color;
+    line-height: 28px;
+    letter-spacing: 0.56px;
     margin: 0;
+    color: $headline-color;
 }
 
 h5 {
-    font-family: 'Hatton';
-    font-size: 24px;
-    line-height: calc(24 * 1.25px);
+    font-family: "PP Hatton";
+    font-size: 16px;
+    font-style: normal;
     font-weight: 300;
-    letter-spacing: .06px;
-    color: $headline-color;
+    line-height: 24px;
+    letter-spacing: 0.64px;
     margin: 0;
+    color: $headline-color;
 }
 
 h6 {
-    font-family: 'Hatton';
-    font-size: 16px;
-    line-height: calc(16 * 1.25px);
-    font-weight: 300;
-    letter-spacing: .04px;
-    color: $headline-color;
+    font-family: "PP Hatton";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.32px;
     margin: 0;
+    color: $headline-color;
 }
 
 p {
-    font-family: 'Neue Montreal';
-    font-size: 32px;
-    line-height: calc(32 * 1.5px);
-    font-weight: 200;
-    letter-spacing: .4px;
-    color: $paragraph-color;
+    font-family: "PP Neue Montreal";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.32px;
     margin: 0;
+    color: $paragraph-color;
 }
 
 a {
-    font-family: 'Neue Montreal';
-    font-size: 24px;
-    line-height: calc(24 * 1.5px);
-    font-weight: 200;
-    letter-spacing: .4px;
-    color: $headline-color;
+    font-family: "PP Neue Montreal";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
     text-decoration: none;
     margin: 0;
+    color: $headline-color;
 }
 
+span {
+    font-family: "PP Neue Montreal";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    color: $headline-color;
+}
+
+button {
+    font-family: "PP Neue Montreal";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.56px;
+    margin: 0;
+    color: $headline-color;
+}
+
+// Desktop
+@media (min-width: 430px) {
+    h1 {
+        font-family: "PP Hatton";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 96px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    h2 {
+        font-family: "PP Hatton";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    h3 {
+        font-family: "PP Hatton";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 56px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    h4 {
+        font-family: "PP Hatton";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    h5 {
+        font-family: "PP Hatton";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    h6 {
+        font-family: "PP Hatton";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    p {
+        font-family: "PP Neue Montreal";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 0;
+        color: $paragraph-color;
+    }
+    
+    a {
+        font-family: "PP Neue Montreal";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    span {
+        font-family: "PP Neue Montreal";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 0;
+        color: $headline-color;
+    }
+    
+    button {
+        font-family: "PP Neue Montreal";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 0;
+        color: $headline-color;
+    }
+}
